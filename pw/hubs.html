@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8">
+    <title>Sistema de Hubs</title>
+    <link rel="stylesheet" type="text/css" href="css/reset.css">
+    <link rel="stylesheet" type="text/css" href="css/index.css">
+  </head>
+  
+   <body>
+
+    <header>
+      <div class="container">
+        <h1>Sistema de Hubs</h1>
+      </div>
+    </header>
+	
+  <main>
+      <section class="container">
+        <h2 id="titulo-form">Importar novo usuario</h2>
+     <form id="formulario" name="formulario" method="post" action="#" onsubmit="return valida_form(this)">
+          <div class="">
+            <label for="usuario">Usuario:</label>
+            <input id="usuario" name="usuario" type="text" placeholder="digite um usuario valido do git" class="campo">
+          </div>
+		  
+     </form> 
+	<button onclick="adicionar()" id="importar-usuario" class="botao bto-principal">Importar</button>
+          
+ 
+      </section>
+      <section class="container">
+<br>
+</br>
+        <table>
+          <thead>
+            <tr>
+              <th>Nome</th>
+              <th>URL</th>
+              <th>GitURL</th>
+              <th>Dono do Projeto</th>
+            </tr>
+          </thead>
+		  <tbody id="tabela">
+		  
+		  </tbody>
+        </table>
+
+      </section>
+    </main>
+    <script src="js/main.js"></script>
+  </body>
+</html>
