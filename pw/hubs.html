@@ -18,18 +18,22 @@
   <main>
       <section class="container">
         <h2 id="titulo-form">Importar novo usuario</h2>
-     <form id="formulario" name="formulario" method="post" action="#" onsubmit="return valida_form(this)">
+     <form id="formulario" name="formulario" method="post" onsubmit="return validaForm(this)">
           <div class="">
             <label for="usuario">Usuario:</label>
             <input id="usuario" name="usuario" type="text" placeholder="digite um usuario valido do git" class="campo">
           </div>
 		  
      </form> 
-	<button onclick="adicionar()" id="importar-usuario" class="botao bto-principal">Importar</button>
+	<button onclick="importarGit()" id="importar-usuario" class="botao bto-principal">Importar</button>
           
  
       </section>
       <section class="container">
+<br>
+</br>
+		<div id="testtabela">
+		</div>
 <br>
 </br>
         <table>

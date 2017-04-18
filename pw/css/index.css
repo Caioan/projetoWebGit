@@ -63,6 +63,10 @@ td, th {
 	margin: 0;
 	border: 1px solid #ccc;
 	text-align: center;
+	max-width: 0;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
 }
 
 th{
