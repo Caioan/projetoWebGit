@@ -8,9 +8,9 @@ body{
 }
 
 header{
-	background-color: #333;
+	background-color: #008080;
 	height: 3em;
-	color: #FFF;
+	color: #000000;
 	margin-bottom: 1em;
 }
 
@@ -71,7 +71,7 @@ td, th {
 
 th{
 	font-weight: bold;
-	background-color: #EEE;
+	background-color: #DCDCDC;
 }
 
 label{
@@ -108,8 +108,8 @@ button{
 	cursor: pointer;
 	margin: 0;
 	margin-top: -3px;
-	color: #fff;
-	background-color:#0c8cd3;
+	color: #000000;
+	background-color: #008080;
 	border-color: #04324c;
 	width: 20%;
     display: block;
